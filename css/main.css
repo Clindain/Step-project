@@ -1,0 +1,1088 @@
+/*---- learn more ----*/
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-width: 375px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.main__learn-comfortably-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 575px;
+    background: #DBF3ED;
+    border-radius: 12px;
+    margin-bottom: 64px;
+}
+.main__learn-comfortably-content-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 327px;
+    gap: 32px;
+    padding: 0 16px;
+}
+.main__learn-comfortably__title{
+    color: #000;
+    font-size: 46px;
+    font-weight: 700;
+}
+.main__learn-comfortably__desc{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.main__learn-comfortably__btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+.main__learn-btn{
+    display: flex;
+    padding: 10px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn-start-learn{
+    color: #EEE;
+    border-radius: 4px;
+    background: #0F8277;
+}
+.btn-learn-more{
+    color: #0F8277;
+    border-radius: 4px;
+    border: 2px solid #0F8277;
+}
+/*---------------------------*/
+/*---- academic training ----*/
+.academic-training{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+.heading-standard{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.title{
+    color: #0F8277;
+    font-size: 16px;
+    font-weight: 700;
+}
+.title-explanation{
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+.title-description{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.card-wrap{
+    width: 358px;
+    height: 436px;
+    border-radius: 8px;
+    border: 1px solid #DADADA;
+    overflow: hidden;
+}
+.img-container{
+    display: flex;
+}
+.education-img{
+    width: 100%;
+    height: 278px;
+}
+.card-wrap__text-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 16px;
+    width: 358px;
+    height: 158px;
+}
+.img-name-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+.card-logo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.what-to-get-wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+.logo-name{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.name-propose{
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.what-to-get-text{
+    color: #0F8277;
+    font-size: 14px;
+    font-weight: 600;
+}
+.den-it-img{
+    background: url("../img/academic-training/image-1.png") no-repeat ;
+    background-size: cover;
+}
+.european-university{
+    background: url("../img/academic-training/image-2.png") no-repeat center center;
+    background-size: cover;
+}
+.projector{
+    background: url("../img/academic-training/image-3.png") no-repeat center center;
+    background-size: cover;
+}
+/*---------------------------*/
+/*--------- courses ---------*/
+.courses{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+.img-name-box.courses-logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px
+}
+.card-wrap.courses-card-wrap-img2{
+    height: 470px;
+}
+.card-wrap__text-wrap.courses-card-wrap-text-img2{
+    height: 192px;
+}
+.link-more{
+    display: flex;
+    justify-content: center;
+    color: #0F8277;
+    font-size: 16px;
+    font-weight: 700;
+}
+.link-more::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../img/arrow.svg') no-repeat;
+    background-size: contain;
+    margin-left: 16px;
+}
+.courses-image1{
+    background: url("../img/popular-courses/image-1.png") no-repeat ;
+    background-size: cover;
+}
+.courses-image2{
+    background: url("../img/popular-courses/image-2.png") no-repeat ;
+    background-size: cover;
+}
+.courses-image3{
+    background: url("../img/popular-courses/image-3.png") no-repeat ;
+    background-size: cover;
+}
+.courses-image4{
+    background: url("../img/popular-courses/image-4.png") no-repeat ;
+    background-size: cover;
+}
+/*-----------------------------------------------*/
+/*--------- Featured topics by category ---------*/
+.featured-topic{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+.featured-topic__card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    height: 496px;
+    width: 360px;
+    align-items: center;
+}
+.featured-topic__card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 168px;
+}
+.featured-topic__info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.featured-topic__info-name{
+    font-size: 16px;
+    font-weight: 700;
+}
+/*----------------------------*/
+/*--------- Partners ---------*/
+.partners {
+    display: flex;
+    width: 100%;
+    height: 412px;
+    position: relative;
+    margin-bottom: 64px;
+}
+.partners::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+    background: #DBF3ED;
+    z-index: -1;
+}
+.partners__content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 359px;
+    height: 284px;
+    margin: 64px auto;
+    text-align: center;
+}
+.partners-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+.partners-logo li img {
+    object-fit: contain;
+}
+.partner1 {
+    width: 118px;
+    height: 42px;
+}
+.partner2 {
+    width: 82px;
+    height: 42px;
+}
+.partner3 {
+    width: 66px;
+    height: 42px;
+}
+.partner4 {
+    width: 33px;
+    height: 42px;
+}
+.partner5 {
+    width: 36px;
+    height: 42px;
+}
+.partner6 {
+    width: 75px;
+    height: 42px;
+}
+.partner7 {
+    width: 92px;
+    height: 42px;
+}
+.partner8 {
+    width: 91px;
+    height: 42px;
+}
+/*----------------------------*/
+/*--------- business ---------*/
+.business {
+    width: 359px;
+    height: 491px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.top-part {
+    height: 261px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.contact-sales-btn {
+    width: 359px;
+    height: 37px;
+    padding: 10px 12px;
+    background: #0F8277;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+}
+.business-block {
+    width: 359px;
+    height: 198px;
+    display: grid;
+    grid-template-columns: repeat(3, 116px);
+    grid-template-rows: repeat(3, 66px);
+    justify-items: center;
+}
+.business-block img {
+    width: 116px;
+    height: 66px;
+    padding: 10px;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+.business-block :nth-child(2) {
+    border-right: 1px solid #BABABA;
+    border-left: 1px solid #BABABA;
+}
+.business-block :nth-child(4) {
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+.business-block :nth-child(6) {
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+.business-block :nth-child(8) {
+    border-right: 1px solid #BABABA;
+    border-left: 1px solid #BABABA;
+}
+.business-block :nth-child(5) {
+    border: 1px solid #BABABA;
+}
+/*------------------------*/
+/*--------- plan ---------*/
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0 80px 0;
+    position: relative;
+    gap: 32px;
+    box-sizing: border-box;
+}
+.plan:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+    background: #DBF3ED;
+    z-index: -1;
+}
+.plan__cards-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.training-program{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 1px solid #0F8277;
+    background: #FDFDFD;
+    width: 360px;
+    box-sizing: border-box;
+    gap: 32px;
+}
+.training-program-plus-plan{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 24px;
+    border: 1px solid #0F8277;
+    background: #0F8277;
+    width: 360px;
+    gap: 32px;
+}
+.plan-cards__top-part{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #0F8277;
+    padding-bottom: 32px;
+    justify-content: space-between;
+    gap: 27px;
+}
+.plan__description{
+    text-align: center;
+    width: 295px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.plan__title-explanation{
+    text-align: center;
+}
+.plan__main__learn-comfortably__desc{
+    text-align: center;
+}
+.plan__description__per--month{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.price-of-card{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+.get-started-btn{
+    color: white;
+    font-family: Cabin, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    background: #0F8277;
+    width: 295px;
+    height: 39px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn--plus-plan{
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    background: #0F8277;
+}
+.best-side-of-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 295px;
+}
+.best-side-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.plan-cards__top-part--plus-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-bottom: 2px solid #FFF;;
+    padding-bottom: 32px;
+}
+.plan__description--bottom{
+    text-align: left;
+}
+.main__learn-comfortably__desc--plus-plan{
+    text-align: center;
+    color: #FFF;
+}
+.plan__description--plus-plan{
+    text-align: center;
+    color: #FFF;
+}
+.title-explanation--plus-plan{
+    color: #FFF;
+}
+.plan__description__per--month--plus-plan{
+    color: #FFF;
+}
+.plan__description--bottom--plus-plan{
+    color: #FFF;
+}
+/*----------------------------*/
+/*--------- students ---------*/
+.photo-students {
+    width: 359px;
+    height: 878px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.photo-students img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.photo {
+    display: none;
+}
+.mobile-photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 116px;
+    gap: 24px;
+}
+.huge-photo1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+/*----------------------------*/
+/*-------- contact us --------*/
+.contact-background {
+    width: 100%;
+    height: 664px;
+    display: flex;
+    position: relative;
+}
+.contact-background:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+    background: #DBF3ED;
+    z-index: -1;
+}
+.contact {
+    width: 359px;
+    height: 536px;
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contact__top-part {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contact__description{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.contact input {
+    width: 100%;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid #0F8277;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    box-sizing: border-box;
+}
+.textarea-style{
+    width: 100%;
+    height: 104px;
+    padding: 12px;
+    border: 1px solid #0F8277;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    box-sizing: border-box;
+    resize: none;
+}
+.send-btn{
+    color: white;
+    font-family: Cabin,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    background: #0F8277;
+    width: 359px;
+    height: 39px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*----------------------------*/
+
+@media (min-width: 768px) {
+    /*---- learn more ----*/
+    .main{
+        min-width: 768px;
+        max-width: 1200px;
+        padding: 0 12px;
+    }
+    .main__learn-comfortably-container{
+        justify-content: flex-start;
+        height: 484px;
+        margin: 0 0 64px 0;
+    }
+    .hero-img-container{
+        background-image: url("../img/hero-img.png");
+        background-repeat: no-repeat;
+        background-size: 328px 332px;
+        background-position: right 24px center;
+    }
+    .main__learn-comfortably-content-wrap{
+        width: 380px;
+        height: 277px;
+        margin-left: 64px;
+        padding: 0;
+    }
+    .main__learn-comfortably__btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    /*---------------------------*/
+    /*---- academic training ----*/
+    .cards-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px;
+        align-items: center;
+    }
+    .card-wrap{
+        width: 232px;
+        height: 370px;
+    }
+    .education-img{
+        height: 180px;
+    }
+    .card-wrap__text-wrap{
+        width: 232px;
+        height: 190px;
+    }
+    /*---------------------------*/
+    /*--------- courses ---------*/
+    .card-wrap.card-wrap__courses{
+        width: 168px;
+        height: 390px;
+    }
+    .card-wrap__text-wrap.card-wrap__text-wrap__content{
+        width: 168px;
+        height: 230px;
+    }
+    .courses-image1{
+        height: 160px;
+    }
+    .courses-image2{
+        height: 160px;
+    }
+    .courses-image3{
+        height: 160px;
+    }
+    .courses-image4{
+        height: 160px;
+    }
+    /*-----------------------------------------------*/
+    /*--------- Featured topics by category ---------*/
+    .featured-topic__card-container{
+        width: 744px;
+        gap: 24px;
+        height: auto;
+    }
+    .featured-topic{
+        gap: 40px;
+    }
+    .featured-topic__card{
+        gap: 32px;
+    }
+    /*----------------------------*/
+    /*--------- Partners ---------*/
+    .partners {
+        height: 282px;
+    }
+    .partners__content-container {
+        width: 690px;
+        height: 154px;
+        gap: 40px;
+    }
+    .partners-logo {
+        gap: unset;
+        justify-content: space-between;
+        height: 42px;
+    }
+    /*----------------------------*/
+    /*--------- business ---------*/
+    .business {
+        width: 744px;
+        height: 261px;
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;
+    }
+    .top-part {
+        width: 360px;
+    }
+    .contact-sales-btn {
+        width: 118px;
+    }
+    .business-block {
+        width: 348px;
+    }
+    /*------------------------*/
+    /*--------- plan ---------*/
+    .plan__cards-wrap{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .training-program{
+        justify-content: flex-start;
+        width: 232px;
+        height: 702px;
+    }
+    .training-program-plus-plan{
+        justify-content: flex-start;
+        width: 232px;
+        height: 702px;
+    }
+    .plan-cards__top-part{
+        width: 168px;
+        height: 286px;
+        gap: 27px;
+    }
+    .plan__description{
+        width: 168px;
+    }
+    .best-side-of-plan{
+        width: 168px;
+    }
+    .get-started-btn{
+        width: 109px;
+        height: 39px;
+    }
+    /*----------------------------*/
+    /*--------- students ---------*/
+    .photo-students {
+        width: 744px;
+        height: 471px;
+        gap: 40px;
+    }
+    .mobile-photo {
+        display: none;
+    }
+    .photo {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 116px;
+    }
+    .huge-photo1 {
+        grid-column: unset;
+        grid-row: unset;
+    }
+    .huge-photo2 {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    /*----------------------------*/
+    /*-------- contact us --------*/
+    .contact{
+        width: 744px;
+        height: 498px;
+    }
+    .send-btn{
+        width: 168px;
+        height: 39px;
+    }
+    .contact-background{
+        height: 626px;
+    }
+    /*----------------------------*/
+}
+@media (min-width: 1368px){
+    /*---- learn more ----*/
+    .main{
+        min-width: 1200px;
+        max-width: 1368px;
+        padding: 0 36px;
+    }
+    .main__learn-comfortably-container{
+        box-sizing: border-box;
+        height: 602px;
+        margin-bottom: 80px;
+    }
+    .main__learn-comfortably-content-wrap{
+        width: 512px;
+        height: 248px;
+        margin-left: 110px;
+        padding: 0;
+    }
+    .main__learn-comfortably__title{
+        font-size: 56px;
+    }
+    .main__learn-comfortably__desc{
+        font-size: 22px;
+    }
+    .main__learn-btn{
+        width: 132px;
+        height: 39px;
+    }
+    .hero-img-container{
+        background-size: 526px 533px;
+        background-position: right 54px center;
+    }
+    .title-explanation{
+        font-size: 40px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .title-description{
+        font-size: 20px;
+    }
+    .what-to-get-text{
+        font-size: 16px;
+    }
+    /*---------------------------*/
+    /*---- academic training ----*/
+    .academic-training{
+        margin-bottom: 80px;
+    }
+    .card-wrap{
+        width: 416px;
+        height: 480px;
+    }
+    .education-img{
+        width: 416px;
+        height: 270px;
+    }
+    .card-wrap__text-wrap{
+        width: 416px;
+        height: 210px;
+    }
+    .logo-name{
+        font-size: 16px;
+    }
+    .name-propose{
+        font-size: 24px;
+    }
+    /*---------------------------*/
+    /*--------- courses ---------*/
+    .card-wrap.card-wrap__courses{
+        width: 306px;
+        height: 480px;
+    }
+    .card-wrap__text-wrap.card-wrap__text-wrap__content{
+        width: 306px;
+        height: 210px;
+    }
+    .courses-image1{
+        height: 270px;
+    }
+    .courses-image2{
+        height: 270px;;
+    }
+    .courses-image3{
+        height: 270px;
+    }
+    .courses-image4{
+        height: 270px;
+    }
+    .link-more{
+        color: #0F8277;
+        font-size: 20px;
+    }
+    /*-----------------------------------------------*/
+    /*--------- Featured topics by category ---------*/
+    .featured-topic{
+        margin-bottom: 80px;
+    }
+    .featured-topic__card{
+        width: 296px;
+    }
+    .featured-topic__about{
+        font-size: 24px;
+    }
+    .featured-topic__info-name{
+        font-size: 20px;
+    }
+    .featured-topic__info-statistic{
+        font-size: 16px;
+    }
+    .featured-topic__card-container{
+        width: 1368px;
+        gap: 24px;
+        height: auto;
+    }
+    /*----------------------------*/
+    /*--------- Partners ---------*/
+    .partners {
+        height: 382px;
+        margin-bottom: 64px;
+    }
+    .partners__content-container {
+        width: 1296px;
+        height: 222px;
+        gap: 60px;
+    }
+    .partners .title-explanation {
+        width: 871px;
+        margin: 0 auto;
+    }
+    .partners-logo {
+        height: 66px;
+    }
+    .partner1 {
+        width: 178px;
+        height: 66px;
+    }
+    .partner2 {
+        width: 142px;
+        height: 66px;
+    }
+    .partner3 {
+        width: 126px;
+        height: 66px;
+    }
+    .partner4 {
+        width: 64px;
+        height: 66px;
+    }
+    .partner5 {
+        width: 99px;
+        height: 66px;
+    }
+    .partner6 {
+        width: 136px;
+        height: 66px;
+    }
+    .partner7 {
+        width: 152px;
+        height: 66px;
+    }
+    .partner8 {
+        width: 152px;
+        height: 66px;
+    }
+    /*----------------------------*/
+    /*--------- business ---------*/
+    .business {
+        width: 1296px;
+        height: 412px;
+        gap: 72px;
+    }
+    .top-part {
+        width: 636px;
+        height: 277px;
+    }
+    .contact-sales-btn {
+        width: 131px;
+        height: 39px;
+        font-size: 16px;
+    }
+    .business-block {
+        width: 588px;
+        height: 412px;
+        grid-template-columns: repeat(3, 196px);
+        grid-template-rows: repeat(3, 136px);
+    }
+    .business-block img {
+        width: 196px;
+        height: 136px;
+        object-fit: none;
+    }
+    /*------------------------*/
+    /*--------- plan ---------*/
+    .training-program{
+        width: 416px;
+        height: 698px;
+        gap: 48px;
+        padding: 56px;
+    }
+    .training-program-plus-plan{
+        width: 416px;
+        height: 698px;
+        gap: 48px;
+        padding: 56px;
+    }
+    .plan-cards__top-part--plus-plan{
+        box-sizing: border-box;
+    }
+    .plan-cards__top-part{
+        width: 304px;
+        height: 306px;
+        gap: 27px;
+    }
+    .plan__description{
+        width: 304px;
+    }
+    .best-side-of-plan{
+        width: 168px;
+    }
+    .plan__description{
+        font-size: 16px;
+    }
+    .best-side-of-plan{
+        width: 304px;
+    }
+    .plan-cards__top-part{
+        padding-bottom: 48px;
+    }
+    .get-started-btn{
+        width: 119px;
+        height: 42px;
+    }
+    /*----------------------------*/
+    /*--------- students ---------*/
+    .photo-students {
+        width: 1296px;
+        height: 767px;
+        margin: 80px auto 100px;
+    }
+    .photo {
+        grid-auto-rows: 210px;
+    }
+    /*----------------------------*/
+    /*-------- contact us --------*/
+    .contact{
+        width: 856px;
+        height: 542px;
+        margin: 80px auto;
+    }
+    .send-btn{
+        width: 196px;
+        height: 42px;
+    }
+    .contact-background{
+        height: 702px;
+    }
+    /*----------------------------*/
+}
